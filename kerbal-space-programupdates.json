@@ -6,7 +6,7 @@
         "UpdateSourceData": "LunaMultiplayer-Server-linux-x64-Release.zip",
         "UpdateSourceArgs": "LunaMultiplayer/LunaMultiplayer",
         "UnzipUpdateSource": true,
-        "OverwriteExistingFiles": false,
+        "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "OneShot": false
     }
