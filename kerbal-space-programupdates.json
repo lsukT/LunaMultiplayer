@@ -18,8 +18,8 @@
         "UpdateSourceTarget": "./serverfiles",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
-        "UpdateSourceConditionSetting": "GitHubDownload",
-        "UpdateSourceConditionValue": "true",
+        "UpdateSourceConditionSetting": "",
+        "UpdateSourceConditionValue": "",
         "DeleteAfterExtract": true,
         "OneShot": false
     }
