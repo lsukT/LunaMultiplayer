@@ -74,10 +74,10 @@ Meta.MetaConfigManifest=kerbal-space-programmetaconfig.json
 Meta.ConfigRoot=kerbal-space-program.kvp
 App.RootDir=./kerbal-space-program/
 Meta.DisplayImageSource=url:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6F4o16dVopbu8uZa3E_t2yYkfr05YY_Pp2eQZYkHrgw&s=10
-App.BaseDirectory=./kerbal-space-program/serverfiles/
-App.WorkingDir=serverfiles
+App.BaseDirectory=./kerbal-space-program/serverfiles/LMPServer-linux-x64
+App.WorkingDir=serverfiles/LMPServer-linux-x64
 App.ExecutableWin=serverfiles\
-App.ExecutableLinux=serverfiles/Server
+App.ExecutableLinux=serverfiles/LMPServer-linux-x64/Server
 App.LinuxCommandLineArgs=
 App.Ports=@IncludeJson[kerbal-space-programports.json]
 App.UpdateSources=@IncludeJson[kerbal-space-programupdates.json]
