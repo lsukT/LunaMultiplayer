@@ -14,12 +14,21 @@
         "UpdateStageName": "",
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "ExtractArchive",
-        "UpdateSourceArgs": "./LunaMultiplayer-Server-linux-x64-Release.zip",
-        "UpdateSourceTarget": "./serverfiles",
-        "UnzipUpdateSource": true,
+        "UpdateSourceArgs": "LunaMultiplayer-Server-linux-x64-Release.zip",
+        "UpdateSourceTarget": "serverfiles",
+        "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
-        "UpdateSourceConditionSetting": "GitHubDownload",
-        "UpdateSourceConditionValue": "true",
+        "UpdateSourceConditionSetting": "",
+        "UpdateSourceConditionValue": "",
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "StartApplication",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,
         "OneShot": false
     }
