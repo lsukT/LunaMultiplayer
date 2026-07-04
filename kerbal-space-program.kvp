@@ -10,7 +10,7 @@ Meta.ContainerPolicy=Supported
 Meta.ContainerPolicyReason=
 Meta.Prerequsites=[]
 Meta.EndpointURIFormat=steam://connect/{ip}:{GenericModule.App.Ports.$SteamQueryPort}
-Meta.AppConfigId=0e2abcc8-ca40-4593-a108-344084be52f9
+Meta.AppConfigId=66d2aaf6-0070-4f4b-9a89-db9ced223acc
 App.AdminMethod=STDIO
 App.HasReadableConsole=true
 App.HasWritableConsole=true
@@ -73,7 +73,7 @@ Meta.ConfigManifest=kerbal-space-programconfig.json
 Meta.MetaConfigManifest=kerbal-space-programmetaconfig.json
 Meta.ConfigRoot=kerbal-space-program.kvp
 App.RootDir=./kerbal-space-program/
-Meta.DisplayImageSource=url:
+Meta.DisplayImageSource=url:https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6F4o16dVopbu8uZa3E_t2yYkfr05YY_Pp2eQZYkHrgw&s=10
 App.BaseDirectory=./kerbal-space-program/serverfiles/
 App.WorkingDir=serverfiles
 App.ExecutableWin=serverfiles\
